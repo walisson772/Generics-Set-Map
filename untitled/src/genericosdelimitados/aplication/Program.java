@@ -14,7 +14,7 @@ public class Program {
 
         List<Product> list = new ArrayList<>();
 
-        String path = "D:\\exercicio\\interfaces\\Generics-Set-Map\\untitled\\src\\in.txt";
+        String path = "CHANGE-ME";
 
         try (BufferedReader bf = new BufferedReader(new FileReader(path))){
             String line = bf.readLine();
@@ -24,7 +24,7 @@ public class Program {
                 line = bf.readLine();
             }
 
-            Integer x = CalculationService.max(list);
+            Product x = CalculationService.max(list);
             System.out.println("Max:");
             System.out.println(x);
         }
