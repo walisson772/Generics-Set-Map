@@ -1,6 +1,6 @@
-package IntroduçãoaosGenerics.aplication;
+package introducaoaosgenerics.aplication;
 
-import IntroduçãoaosGenerics.services.PrintService;
+import introducaoaosgenerics.services.PrintService;
 
 import java.util.Scanner;
 
